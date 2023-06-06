@@ -1,0 +1,43 @@
+* {
+    background-color: rgb(243, 189, 250);
+}
+nav {
+    position: fixed;
+    text-align: right;
+    background-color: darkgreen;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+a {
+    background-color: darkgreen;
+    text-decoration: none;
+    color: rgb(196, 189, 189);
+}
+footer {
+    /* grid-area: ; */
+    background-color: rgb(241, 214, 247);
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    padding: 7px 10px 2px 0px;
+}
+img {
+    background-color: rgb(241, 214, 247);
+    width: 50px;
+}
+#name, #email {
+    height: 30px;
+    width: 200px;
+    border-style: solid;
+}
+#comments {
+    height: 120px;
+    width: 200px;
+    border-color: rgb(146, 141, 134);
+}
+h3 {
+    margin-bottom: 5px;
+}
