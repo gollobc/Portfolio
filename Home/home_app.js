@@ -1,15 +1,16 @@
-const homeScreen = document.getElementsByClassName('overlay')
+// const homeScreen = document.querySelector('.overlay')
 // homeScreen.addEventListener('click', (event) =>{
-//     event.style.display = 'none'
-//     console.log('click')
+//     event.target.style.display = 'none'
 // })
-console.log(homeScreen)
 const gitHub = document.getElementById('github')
 gitHub.addEventListener('click', () => {
     document.location.href = 'https://www.github.com/gollobc'
+    console.log('cllick')
 })
 
 const linkedIn = document.getElementById('linkedin')
 linkedIn.addEventListener('click', () => {
-    document.location.href = 'https://www.linkedin.com'
+    document.location.href = 'https://www.linkedin.com/in/cade-gollob'
 })
+
+const resume = document.getElementById('resume')
