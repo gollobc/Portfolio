@@ -12,44 +12,47 @@
 </head>
 <body>
     <nav>
-        <a>Cade Gollob</a>
+        <a href="../Landing/landing.html">Cade Gollob</a>
         <a href="../Home/home.html">About</a> 
         <a href="../Projects/project.html">Projects</a> 
         <a href="../Contact/contact.html">Contact</a>
     </nav>
     <!-- <div class="overlay">Welcome</div> -->
-    <h1 class="greeting">Hi, I'm Cade</h1>
+    <main class="leftColumn">
+        <h1 class="greeting">Hi, I'm Cade</h1>
 
-    <div class="caro-container">
-        <div class="prev">
-            <span class="lnr lnr-chevron-left"></span>
+        <div class="caro-container">
+            <div class="prev">
+                <span class="lnr lnr-chevron-left"></span>
+            </div>
+            <div class="caro-images">
+                <img src="../Images/me_pic.JPG" class="images">
+                <img  src="../Images/IMG_0184.JPG" class="images">
+                <img  src="../Images/IMG_1160.PNG" class="images">
+                <img  src="../Images/IMG_1152.JPG" class="images">
+            </div>
+            <div class="next">
+                <span class="lnr lnr-chevron-right"></span>
+            </div>
         </div>
-        <div class="caro-images">
-            <img src="../Images/me_pic.JPG" class="images">
-            <img  src="../Images/IMG_0184.JPG" class="images">
-            <img  src="../Images/IMG_1160.PNG" class="images">
-            <img  src="../Images/IMG_1152.JPG" class="images">
+    </main>
+    <main class="rightColumn">
+        <p>I'm an aspiring Software Engineer with a background in Physics. I enjoy working collaboratively on challenging probelms. I hope to bring my passion for health and exercise into future projects. 
+        </p>
+        <div>
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Node JS</li>
+                <li>GitHub</li>
+            </ul>
         </div>
-        <div class="next">
-            <span class="lnr lnr-chevron-right"></span>
+        <div>
+            <h3>About Me</h3>
+            <p>I was born in Hawaii, but have lived in Washington for the majority of my life. I enjoy physical activities like weight-lifting, rock climbing, and Brazilian Jiu-Jitsu. I have a dog and her name is Pua Nani, which means beautiful flower in Hawaiian. My previous job experience includes playing with molten glass (glassblowing) and climbing off tall buildings (rope access technician).</p>
         </div>
-    </div>
-
-    <p>I'm an aspiring Software Engineer with a background in Physics. I enjoy working collaboratively on challenging probelms. I hope to bring my passion for health and exercise into future projects. 
-    </p>
-    <div>
-        <h3>Skills</h3>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Node JS</li>
-            <li>GitHub</li>
-        </ul>
-    </div>
-    <div>
-        <h3>About Me</h3>
-        <p>I was born in Hawaii, but have lived in Washington for the majority of my life. I enjoy physical activities like weight-lifting, rock climbing, and Brazilian Jiu-Jitsu. I have a dog and her name is Pua Nani, which means beautiful flower in Hawaiian. My previous job experience includes playing with molten glass (glassblowing) and climbing off tall buildings (rope access technician).</p>
-    </div>
+    </main>
     
     <button id="resume" onclick="openR()">Resume</button>
     <div id="iframe"></div>

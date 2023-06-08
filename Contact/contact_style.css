@@ -26,6 +26,9 @@ nav :first-child{
     margin-right: auto;
     word-spacing: 0px;
 }
+nav :last-child{
+    margin-right: 5px;
+}
 a {
     background-color: rgb(249, 236, 252);
     text-decoration: none;
@@ -52,12 +55,10 @@ img {
 #name, #email {
     height: 30px;
     width: 220px;
-    border-style: solid;
 }
 #comments {
     height: 120px;
     width: 220px;
-    border-color: rgb(146, 141, 134);
 }
 h1{
     margin: 60px 20px;
@@ -69,6 +70,7 @@ h4 {
 input{
     margin-left: 20px;
     margin-bottom: 10px;
+    border-color: rgb(34, 34, 33);
 }
 button {
     margin: 10px auto 40px 20px;

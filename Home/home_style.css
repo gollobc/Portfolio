@@ -20,6 +20,7 @@ nav {
     width: 100vw;
     height: 25px;
     word-spacing: 10px;
+    border: 10px;
 }
 a {
     background-color: rgb(255, 185, 159);
@@ -78,6 +79,9 @@ nav :first-child{
     margin-right: auto;
     word-spacing: 0px;
 }
+nav :last-child{
+    margin-right: 5px;
+}
 .caro-images img{
     width: 300px;
     border-radius: 5px;
@@ -114,5 +118,20 @@ IFRAME {
     background-color: aliceblue;
     height: 450px;
     width: 75vw;
+}
 
+@media screen and (min-width: 740px) {
+    body {
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-areas: 
+            "leftCol" "rightCol";
+    }
+    .leftColumn {
+        grid-area: "leftCol";
+    }
+    .rightColumn {
+        grid-area: "rightCol";
+        margin-top: 60px;
+    }
 }

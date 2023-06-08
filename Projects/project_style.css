@@ -24,6 +24,9 @@ nav :first-child{
     margin-right: auto;
     word-spacing: 0px;
 }
+nav :last-child{
+    margin-right: 5px;
+}
 a {
     background-color: rgb(148, 180, 238);
     text-decoration: none;
@@ -69,4 +72,10 @@ h1 {
     justify-content: center;
     margin: 60px auto 60px auto;
 
+}
+@media screen and (min-width: 740px) {
+    main {
+        display: flex;
+        flex-direction: row;
+    }
 }
