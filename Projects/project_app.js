@@ -5,5 +5,5 @@ gitHub.addEventListener('click', () => {
 
 const linkedIn = document.getElementById('linkedin')
 linkedIn.addEventListener('click', () => {
-    document.location.href = 'https://www.linkedin.com'
+    document.location.href = 'https://www.linkedin.com/in/cadegollob'
 })

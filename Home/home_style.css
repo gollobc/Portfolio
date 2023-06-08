@@ -24,8 +24,12 @@ nav {
 a {
     background-color: rgb(255, 185, 159);
     text-decoration: none;
+    color: black;
     padding: 0 5px;
     margin-top: 4px;
+}
+a:hover {
+    text-shadow: .5px .5px rgb(109, 108, 108);
 }
 .overlay {
     display: flex;
@@ -74,11 +78,14 @@ nav :first-child{
     margin-right: auto;
     word-spacing: 0px;
 }
-#me {
-    display: flex;
+.caro-images img{
     width: 300px;
     border-radius: 5px;
     margin: 0 auto;
+    display: none;
+}
+.caro-images img:first-of-type {
+    display: block;
 }
 #github, #linkedin {
     width: 50px;
@@ -98,4 +105,14 @@ nav :first-child{
     background-color: antiquewhite;
     border-radius: 50%;
     padding: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+IFRAME {
+    z-index: 5;
+    display: flex;
+    margin: auto;
+    background-color: aliceblue;
+    height: 450px;
+    width: 75vw;
+
 }

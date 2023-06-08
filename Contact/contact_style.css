@@ -29,13 +29,16 @@ nav :first-child{
 a {
     background-color: rgb(249, 236, 252);
     text-decoration: none;
+    color: black;
     padding: 0 5px;
     margin-top: 4px;
 }
+a:hover {
+    text-shadow: .5px .5px rgb(109, 108, 108);
+}
 footer {
-    /* grid-area: ; */
     background-color: rgb(249, 236, 252);
-    position: absolute;
+    position: relative;
     width: 100vw;
     bottom: 0;
     right: 0;
@@ -68,10 +71,9 @@ input{
     margin-bottom: 10px;
 }
 button {
-    margin-left: 20px;
+    margin: 10px auto 40px 20px;
     align-items: center;
     justify-content: space-around;
-    margin-top: 10px;
     background-color: black;
     border-radius: 10px;
     color: antiquewhite;

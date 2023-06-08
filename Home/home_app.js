@@ -2,15 +2,61 @@
 // homeScreen.addEventListener('click', (event) =>{
 //     event.target.style.display = 'none'
 // })
+
 const gitHub = document.getElementById('github')
 gitHub.addEventListener('click', () => {
     document.location.href = 'https://www.github.com/gollobc'
-    console.log('cllick')
 })
 
 const linkedIn = document.getElementById('linkedin')
 linkedIn.addEventListener('click', () => {
-    document.location.href = 'https://www.linkedin.com/in/cade-gollob'
+    document.location.href = 'https://www.linkedin.com/in/cadegollob'
 })
 
-const resume = document.getElementById('resume')
+function openR() {
+    let resume = document.createElement('IFRAME')
+    resume.setAttribute('src', '../Resumenewest.docx.pdf')
+    let styleResume = document.getElementById('iframe').appendChild(resume)
+
+    let close = document.createElement('button')
+    close.innerText = 'Exit'
+    let closeButton = document.getElementById('iframe').appendChild(close)
+
+    closeButton.addEventListener('click', (event) => {
+        document.querySelector('IFRAME').remove()
+        document.getElementById('iframe').removeChild(event.target)
+     })
+};
+
+
+
+//Grabbing the images and buttons for carousel
+const next = document.querySelector('.next')
+const prev = document.querySelector('.prev')
+const images = document.getElementsByClassName('images');
+
+let currentImgIndex = 0;
+let previousImgIndex = 0;
+
+next.addEventListener('click', () => {
+    previousImgIndex = currentImgIndex
+    currentImgIndex++
+
+    if (currentImgIndex >= images.length) {
+        currentImgIndex = 0;
+    }
+
+    images[previousImgIndex].style.display = 'none'
+    images[currentImgIndex].style.display = 'block'
+})
+prev.addEventListener('click', () => {
+    previousImgIndex = currentImgIndex
+    currentImgIndex--
+
+    if (currentImgIndex < 0) {
+        currentImgIndex = images.length - 1;
+    }
+
+    images[previousImgIndex].style.display = 'none'
+    images[currentImgIndex].style.display = 'block'
+})

@@ -27,8 +27,12 @@ nav :first-child{
 a {
     background-color: rgb(148, 180, 238);
     text-decoration: none;
+    color: black;
     padding: 0 5px;
     margin-top: 4px;
+}
+a:hover {
+    text-shadow: .5px .5px rgb(109, 108, 108);
 }
 footer {
     background-color: rgb(148, 180, 238);
