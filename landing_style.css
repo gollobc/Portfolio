@@ -1,0 +1,125 @@
+
+body {
+    overflow: hidden;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a {
+    font-size: 40px;
+    padding: 10px;
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    text-shadow: 2px 2px 5px, .3px .3px  white
+}
+a:hover {
+    text-shadow: 1px 1px 5px white, .3px .3px  white
+}
+  
+.name {    
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    text-align:center;
+    font-size:45px;
+    color:#fff;
+}
+ 
+.background {
+    background-color:white;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+  
+.circle {
+    background-color:#fffdff;
+    height:100vh;
+    border-radius:50%;
+    width: 100vw;
+    margin: auto;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+  
+.circle1 {
+    background-color:#f5e2fa;
+    border-radius:50%;
+    margin: auto;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: pulse3 10s linear infinite;
+}
+  
+.circle2 {
+    background-color:#cbdef8;
+    border-radius:50%;
+    margin: auto;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: pulse2 6s linear infinite;
+}
+  
+.circle3 {
+    background-color:#cfafd4;
+    border-radius:50%;
+    margin: auto;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:50px;
+    animation: pulse 5s linear infinite;
+}
+
+@keyframes pulse {
+    0%{width:100px;height:100px;}
+    50%{width:200px;height:200px;}
+    100%{width:100px;height:100px;}
+}
+@keyframes pulse2 {
+    0%{width:300px;height:300px;}
+    50%{width:400px;height:400px;}
+    100%{width:300px;height:300px;}
+} 
+@keyframes pulse3 {
+    0%{width:600px;height:600px;}
+    50%{width:700px;height:700px;}
+    100%{width:600px;height:600px;}
+}
+@keyframes movingContact {
+    0%{top: 40%; left: 30%;}
+    50%{top: 50%; left: 60%;}
+    100%{top: 40%; left: 30%;}
+}
+@keyframes movingProjects {
+    0%{top: 10%; left: 20%;}
+    50%{top: 80%; left: 20%;}
+    100%{top: 10%; left: 20%;}
+}
+
+.about {
+    transform: translate(150px, 150px);
+    opacity:.8;
+}
+.projects {
+    position: relative;
+    transform: translate(-200px);
+    opacity:.8;
+    animation: movingProjects 5s linear infinite;
+}
+.contact {
+    position: relative;
+    transform: translate(-50px);
+    opacity: .8;
+    animation: movingContact 12s linear infinite;
+}
