@@ -1,7 +1,3 @@
-// const homeScreen = document.querySelector('.overlay')
-// homeScreen.addEventListener('click', (event) =>{
-//     event.target.style.display = 'none'
-// })
 
 const gitHub = document.getElementById('github')
 gitHub.addEventListener('click', () => {
@@ -21,10 +17,10 @@ function openR() {
     let close = document.createElement('button')
     close.innerText = 'Exit'
     let closeButton = document.getElementById('iframe').appendChild(close)
-
+    
     closeButton.addEventListener('click', (event) => {
         document.querySelector('IFRAME').remove()
-        document.getElementById('iframe').removeChild(event.target)
+        document.getElementById('iframe').removeChild(close)
      })
 };
 
