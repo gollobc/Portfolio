@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(to right, rgb(252, 162, 162), rgb(171, 194, 255));
+    background: linear-gradient(to right, rgb(189, 252, 181) 0%, rgba(141,141,163,1) 24%, rgba(144,251,216,1) 100%);
     display: block;
     height: 100vh;
     width: 100vw;
     text-align: justify;
     margin: 10px auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
 nav {
     display: flex;
@@ -22,11 +23,12 @@ nav {
     z-index: 1;
 }
 a {
-    background-color: rgb(218, 209, 206);
+    background-color: rgb(221, 151, 186);
     text-decoration: none;
     color: black;
     padding: 0 5px;
     margin-top: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 a:hover {
     text-shadow: .5px .5px rgb(109, 108, 108);

@@ -1,5 +1,5 @@
 * {
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     box-sizing: border-box;
 }
 body {
@@ -8,6 +8,8 @@ body {
     width: 100vw;
     text-align: justify;
     margin: 0px auto;
+    background: linear-gradient(to left, rgb(108, 98, 252) 0%, rgb(108, 108, 177) 29%, rgba(68,167,251,1) 100%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 nav {
     display: flex;
@@ -18,7 +20,8 @@ nav {
     background-color: rgb(148, 180, 238);
     width: 100vw;
     height: 25px;
-    word-spacing: 10px;   
+    word-spacing: 10px;
+    border-style: none none inset none;   
 }
 nav :first-child{
     margin-right: auto;
@@ -66,6 +69,7 @@ div:hover{
 img {
     background-color: rgb(148, 180, 238);
     width: 50px;
+    cursor: pointer;
 }
 h1 {
     display: flex;
