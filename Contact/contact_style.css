@@ -18,10 +18,12 @@ nav {
     text-align: right;
     background-color: rgb(249, 236, 252);
     width: 100vw;
-    height: 25px;
+    height: 30px;
     top: 0;
     left: 0;
     word-spacing: 10px;
+    border-style: none none inset none;
+    border-color: rgb(201, 201, 252);
 }
 nav :first-child{
     margin-right: auto;

@@ -4,7 +4,7 @@
 body {
     background: linear-gradient(to right, rgb(189, 252, 181) 0%, rgba(141,141,163,1) 24%, rgba(144,251,216,1) 100%);
     display: block;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     text-align: justify;
     margin: 10px auto;
@@ -18,9 +18,11 @@ nav {
     text-align: right;
     background-color: rgb(221, 151, 186);
     width: 100vw;
-    height: 25px;
+    height: 30px;
     word-spacing: 10px;
     z-index: 1;
+    border-style: none none inset none;
+    border-color: rgb(156, 231, 250);
 }
 a {
     background-color: rgb(221, 151, 186);
