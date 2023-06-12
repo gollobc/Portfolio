@@ -67,6 +67,11 @@ button {
     height: 50px;
     width: 75px;
 }
+button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: .8;
+    transition: .4s;
+}
 nav :first-child{
     margin-right: auto;
     word-spacing: 0px;

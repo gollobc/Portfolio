@@ -22,7 +22,8 @@ nav {
     height: 30px;
     word-spacing: 10px;
     border-style: none none inset none;
-    border-color: rgb(119, 119, 252); 
+    border-color: rgb(119, 119, 252);
+    z-index: 5;
 }
 nav :first-child{
     margin-right: auto;
