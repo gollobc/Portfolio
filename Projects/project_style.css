@@ -1,5 +1,4 @@
 * {
-    /* background-color: cornflowerblue; */
     box-sizing: border-box;
 }
 body {
@@ -55,8 +54,7 @@ div {
     display: flex;
     margin: 15px auto;
     align-items: center;
-    justify-content: space-around;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 5px;
     justify-content: center;
     height: 200px;
@@ -83,5 +81,10 @@ h1 {
     main {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+    }
+    div{
+        margin: 15px 5vw 60px;
+        padding: none 40px none 40px;
     }
 }

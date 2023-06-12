@@ -1,6 +1,5 @@
 
 body {
-    overflow: hidden;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 a {
@@ -14,15 +13,12 @@ a:hover {
     text-shadow: 1px 1px 5px white, .3px .3px  white
 } 
 .name {    
-    width: 100%;
     margin: auto;
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
     z-index: 1;
     text-align:center;
-    font-size:5px;
-    /* color:#fff; */
 }
 .background {
     background-color:rgb(255, 255, 255);
@@ -34,7 +30,6 @@ a:hover {
     left:0;
 } 
 .circle1 {
-    background-color:#f5e2fa;
     background: radial-gradient(circle, #f3cefd 30%, rgb(250, 149, 242) 50%, #f3cefd 100%);
     border-radius:50%;
     margin: auto;
@@ -45,7 +40,6 @@ a:hover {
     animation: pulse3 10s linear infinite;
 } 
 .circle2 {
-    background-color:#cbdef8;
     background: radial-gradient(circle, #cbdef8 40%, rgb(253, 171, 235) 80%);
     border-radius:50%;
     margin: auto;
@@ -56,7 +50,6 @@ a:hover {
     animation: pulse2 6s linear infinite;
 } 
 .circle3 {
-    background-color:#cfafd4;
     background: radial-gradient(circle, rgb(139, 139, 250) 0%, rgb(166, 91, 252) 20%, rgb(186, 232, 250) 80%);
     border-radius:50%;
     margin: auto;
