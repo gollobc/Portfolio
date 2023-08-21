@@ -8,22 +8,21 @@ body {
     width: 100vw;
     text-align: justify;
     margin: 0 auto;
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    background: radial-gradient(#a23982,#944f5c);
+    background: url(https://images.pexels.com/photos/3616764/pexels-photo-3616764.jpeg?auto=compress&cs=tinysrgb&w=1600) no-repeat center fixed;
+    background-size: cover;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 nav {
     display: flex;
     position: fixed;
     text-align: right;
-    background-color: rgb(249, 236, 252);
+    background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 30px;
     top: 0;
     left: 0;
     word-spacing: 10px;
-    border-style: none none inset none;
-    border-color: rgb(201, 201, 252);
+    border: 1px solid;
 }
 nav :first-child{
     margin-right: auto;
@@ -33,7 +32,6 @@ nav :last-child{
     margin-right: 5px;
 }
 a {
-    background-color: rgb(249, 236, 252);
     text-decoration: none;
     color: black;
     padding: 0 5px;
@@ -42,27 +40,34 @@ a {
 a:hover {
     text-shadow: .5px .5px rgb(109, 108, 108);
 }
+nav a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
 footer {
-    background-color: rgb(249, 236, 252);
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid;
+    position: absolute;
     width: 100vw;
     bottom: 0;
-    right: 0;
-    text-align: right;
-    padding: 7px 10px 2px 0px;
-}
-img {
-    background-color: rgb(249, 236, 252);
-    width: 50px;
-    cursor: pointer;
+    padding: .5rem 0;
 }
 #name, #email {
     height: 30px;
-    width: 220px;
+    width: 20vw;
+    min-width: 220px;
 }
 #comments {
     height: 120px;
-    width: 220px;
+    width: 30vw;
+    display: flex;
+    margin-left: 20px;
+    min-width: 220px;
+    border: 1px solid;
+    border-radius: .5rem;
 }
 h1{
     margin: 60px 20px;
@@ -74,10 +79,11 @@ h4 {
 input{
     margin-left: 20px;
     margin-bottom: 10px;
-    border-color: rgb(34, 34, 33);
-    background-color: rgb(252, 242, 230);
+    border: 1px solid;
+    border-radius: .5rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     top: 0;
+    
 }
 button {
     margin: 10px auto 40px 20px;
@@ -95,4 +101,7 @@ button:hover{
     color: #202020;
     opacity: .8;
     transition: .4s;
+}
+i {
+    cursor: pointer;
 }

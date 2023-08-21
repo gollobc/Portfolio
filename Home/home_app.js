@@ -1,12 +1,12 @@
 // Grabbing images in footer and linking them to their respective sites
-const gitHub = document.getElementById('github')
-gitHub.addEventListener('click', () => {
-    window.open('https://www.github.com/gollobc', '_blank','noreferrer', 'noopener')
-})
-const linkedIn = document.getElementById('linkedin')
-linkedIn.addEventListener('click', () => {
-    window.open('https://www.linkedin.com/in/cadegollob', '_blank', 'noreferrer', 'noopener')
-})
+// const gitHub = document.getElementById('github')
+// gitHub.addEventListener('click', () => {
+//     window.open('https://www.github.com/gollobc', '_blank','noreferrer', 'noopener')
+// })
+// const linkedIn = document.getElementById('linkedin')
+// linkedIn.addEventListener('click', () => {
+//     window.open('https://www.linkedin.com/in/cadegollob', '_blank', 'noreferrer', 'noopener')
+// })
 
 //Runs when resume button is clicked. Creates and iframe and appends the new element below the button with a button to clear the iframe.
 function openR() {
