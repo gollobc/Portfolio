@@ -122,6 +122,9 @@ p{
     /* max-width: 50%; */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+i {
+    cursor: pointer;
+}
 /* #project-a{
     background: url(/Images/activeinsights.png) no-repeat;
     background-size: 100% 100%;
