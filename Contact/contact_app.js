@@ -18,4 +18,5 @@ submit.addEventListener('click', () => {
     email.value = ''
     yourName.value = ''
     comments.value = ''
+    alert('Thank you!')
 })
