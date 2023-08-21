@@ -105,3 +105,7 @@ button:hover{
 i {
     cursor: pointer;
 }
+p {
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
