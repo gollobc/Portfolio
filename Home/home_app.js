@@ -11,7 +11,7 @@
 //Runs when resume button is clicked. Creates and iframe and appends the new element below the button with a button to clear the iframe.
 function openR() {
     let resume = document.createElement('IFRAME')
-    resume.setAttribute('src', '../Resumenewest.docx.pdf')
+    resume.setAttribute('src', '../ATSResume.pdf')
     let styleResume = document.getElementById('iframe').appendChild(resume)
 
     let close = document.createElement('button')
