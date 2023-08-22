@@ -10,10 +10,11 @@ html {
 body {
     display: block;
     min-height: 100%;
-    width: 100vw;
+    width: 100%;
     text-align: justify;
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: hidden;
 }
 nav {
     display: flex;

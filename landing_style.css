@@ -1,6 +1,7 @@
 
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: hidden;
 }
 a {
     font-size: 9vw;
