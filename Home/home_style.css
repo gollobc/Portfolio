@@ -10,7 +10,7 @@ body {
     text-align: justify;
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 } 
 nav {
     display: flex;
@@ -83,7 +83,7 @@ nav :first-child{
     word-spacing: 0px;
 }
 nav :last-child{
-    margin-right: 5px;
+    margin-right:22px;
 }
 .caro-images img{
     width: 300px;

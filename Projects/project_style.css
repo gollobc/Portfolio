@@ -14,7 +14,8 @@ body {
     text-align: justify;
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 nav {
     display: flex;
